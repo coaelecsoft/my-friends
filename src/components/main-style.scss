@@ -1,0 +1,56 @@
+$color:orange;
+@font-face {
+    font-family: 'menu';
+    src: url('fonts/Zootopia.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'logo';
+    src: url('fonts/DinosaursAreAlive.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'content-h';
+    src: url('fonts/PuppyBellies.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'content-p';
+    src: url('fonts/PuppyBellies.ttf') format('truetype');
+}
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: $color white;
+    scrollbar-width: thin;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#root{
+    font-size:1.3rem;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    > main{
+        font-family:content-h;
+        background:rgba(silver, .7);
+        flex:1 0 auto;
+    }
+}
+
+.randomDog{
+    display:flex;
+    flex-wrap:wrap;
+    > * {
+        border:1px solid red;
+    }
+}

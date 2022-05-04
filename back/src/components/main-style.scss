@@ -1,0 +1,24 @@
+$color:red;
+@font-face {
+    font-family: 'content-h';
+    src: url('fonts/PuppyBellies.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'menu';
+    src: url('fonts/Zootopia.otf') format('truetype');
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#root{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    > main{
+        font-family:content-h;
+        background:rgba(silver, .7);
+        flex:1 0 auto;
+    }
+}
