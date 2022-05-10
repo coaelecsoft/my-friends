@@ -1,16 +1,20 @@
 import Navbar from './components/navbar'
 import Footer from './components/footer'
+//import Weather from './weather'
+
 //import Hero from './components/hero'
 //import Api from './api'
-import Pets from './pets'
+//import Pets from './pets'
+import Flip from './flip'
 
 function About() {
     return (
         <>
             <Navbar />
             <main>
+                <Flip />
+               
                 
-                <Pets />
                </main>
             <Footer/>
         </>

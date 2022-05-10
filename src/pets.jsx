@@ -10,7 +10,7 @@ function Pets() {
 
     const fetchData = async () => {
         let data = [];
-        for (let i = 0; i < 13; i++) {
+        for (let i = 0; i < 33; i++) {
             const response = await fetch("https://dog.ceo/api/breeds/image/random")
             const datajson = await response.json()
             data.push(datajson);           

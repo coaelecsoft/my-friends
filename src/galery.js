@@ -1,6 +1,7 @@
 import Articles from "./components/articles"
 import Footer from "./components/footer"
 import Navbar from "./components/navbar"
+import Pets from "./pets"
 
 
 function Galery() {
@@ -8,7 +9,10 @@ function Galery() {
     return(
         <>
             <Navbar />
-            <Articles/>
+            <main>
+                <Pets />
+                <Articles />
+            </main>
             <Footer/>
         </>
     )
